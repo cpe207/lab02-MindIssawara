@@ -1,0 +1,27 @@
+.circle {
+  border-radius: 50%;
+}
+
+body {
+  background-color: #fce9f1;
+}
+
+.btn {
+  background-color: #f1d4e5;
+  width: 150px;
+  height: 40px;
+}
+
+nav {
+  background-color: #f1d4e5;
+  color: #fff4f4;
+}
+
+a {
+  color: #000;
+}
+
+.Mycard {
+  display: flex;
+  justify-content: center;
+}
