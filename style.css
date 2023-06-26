@@ -7,9 +7,11 @@ body {
 }
 
 .btn {
+  margin-top: 3%;
   background-color: #f1d4e5;
   width: 150px;
   height: 40px;
+  border-color: #e0a9ca;
 }
 
 nav {
@@ -24,4 +26,41 @@ a {
 .Mycard {
   display: flex;
   justify-content: center;
+}
+
+.containerFlex {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+@media (max-width: 600px) {
+  .containerFlex {
+    flex-direction: column;
+  }
+}
+
+.content {
+  padding-left: 4%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #ffffff, #e0a9ca, #b3eaf8);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding-bottom: 1%;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
